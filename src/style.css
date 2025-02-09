@@ -28,6 +28,7 @@ h1 {
 
 .date-heading {
     text-align: center;
+    color: rgb(90, 90, 90)
 }
 
 .search-form-input {
@@ -50,6 +51,7 @@ h1 {
 .weather-app-data {
     display: flex;
     justify-content: space-between;
+    color: rgb(90, 90, 90)
 }
 
 .weather-app-conditions {
@@ -76,6 +78,37 @@ h1 {
 
 strong {
     color: rgb(0, 156, 122);
+}
+
+.weather-forecast {
+display: flex;
+justify-content: space-around;
+margin-top: 30px;
+}
+
+.weather-forecast-date {
+    text-align: center;
+    color: rgb(90, 90, 90);
+    line-height: 20px;
+    margin-bottom: 10px;
+
+}
+
+.weather-forecast-icon {
+    text-align: center;
+    font-size: 32px;
+}
+
+.weather-forecast-temperatures {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 156, 122);
+    display: flex;
+    justify-content: center;
+}
+
+.weather-forecast-temperature {
+    padding: 0 10px;
 }
 
 footer {
